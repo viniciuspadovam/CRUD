@@ -1,0 +1,21 @@
+h2 {
+    text-align: center;
+}
+th, td {
+    padding: 1em;
+}
+a {
+    text-decoration: none !important;
+}
+.little-container {
+    width: 500px;
+    margin: 0 auto;
+}
+footer {
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+
+    width: 100%;
+}
