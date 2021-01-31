@@ -14,8 +14,14 @@ a {
 footer {
     position : absolute;
     bottom : 0;
-    height : 40px;
+    height : 60px;
     margin-top : 40px;
 
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p {
+    margin-bottom: 0%;
 }
