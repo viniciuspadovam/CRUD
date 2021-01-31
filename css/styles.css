@@ -11,11 +11,12 @@ a {
     width: 500px;
     margin: 0 auto;
 }
+/*
 footer {
     position : absolute;
     bottom : 0;
     height : 60px;
-    margin-top : 40px;
+    margin-top : 10em;
 
     width: 100%;
     display: flex;
@@ -24,4 +25,4 @@ footer {
 }
 footer p {
     margin-bottom: 0%;
-}
+}*/

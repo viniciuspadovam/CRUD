@@ -12,10 +12,18 @@ function loadSelect()
                     <td> {$linha['qtd']} </td>
                     <td> 
                         <button class=\"btn btn-primary\">
-                            <a href=\"./form_update.php?id={$linha['id']}\" class=\"link-light\">Alterar</a>
+                            <abbr title=\"Alterar\">
+                                <a href=\"./form_update.php?id={$linha['id']}\" class=\"link-light\">
+                                    <i class=\"fas fa-edit\"></i>
+                                </a>
+                            </abbr>
                         </button> 
                         <button class=\"btn btn-danger\">
-                            <a href=\"./delete.php?id={$linha['id']}\" class=\"link-light\">Excluir</a>
+                            <abbr title=\"Excluir\">
+                                <a href=\"./delete.php?id={$linha['id']}\" class=\"link-light\">
+                                    <i class=\"fas fa-trash\"></i>
+                                </a>
+                            </abbr>
                         </button>
                     </td>
                  </tr>";

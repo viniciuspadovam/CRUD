@@ -3,7 +3,11 @@
 <h2 class="mt-3 mb-4">Painel de controle de estoque</h2>
 <main>
     <div class="little-container">
-        <button class="btn btn-info mb-2"><a href="./form_insert.php" class="link-dark">Inserir Produto</a></button>
+        <button class="btn btn-info mb-2">
+            <a href="./form_insert.php" class="link-dark">
+                <i class="fas fa-plus"></i> Inserir Produto
+            </a>
+        </button>
 
         <table class="table table-bordered text-center">
             <tr>
