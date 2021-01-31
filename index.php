@@ -13,24 +13,9 @@
             </tr>
             <?php
             require './includes/connection.php';
+            require './select.php';
 
-            $consulta = $pdo->query("SELECT * FROM products;");
-
-
-            while ($linha = $consulta->fetch(PDO::FETCH_ASSOC)) {
-                echo "<tr>
-                    <td> {$linha['name']} </td>
-                    <td> {$linha['qtd']} </td>
-                    <td> 
-                        <button class=\"btn btn-primary\">
-                            <a href=\"./form_update.php?id={$linha['id']}\" class=\"link-light\">Alterar</a>
-                        </button> 
-                        <button class=\"btn btn-danger\">
-                            <a href=\"./delete.php?id={$linha['id']}\" class=\"link-light\">Excluir</a>
-                        </button>
-                    </td>
-                  </tr>";
-            }
+            echo isset($_GET['searchPattern']) ? searchSelect() : loadSelect();
             ?>
         </table>
     </div>
