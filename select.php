@@ -42,12 +42,16 @@ function searchSelect()
                             <td> {$linha['name']} </td>
                             <td> {$linha['qtd']} </td>
                             <td> 
-                                <button class=\"btn btn-primary\">
-                                    <a href=\"./form_update.php?id={$linha['id']}\" class=\"link-light\">Alterar</a>
-                                </button> 
-                                <button class=\"btn btn-danger\">
-                                    <a href=\"./delete.php?id={$linha['id']}\" class=\"link-light\">Excluir</a>
-                                </button>
+                                <a href=\"./form_update.php?id={$linha['id']}\" class=\"btn btn-primary link-light\">
+                                    <abbr title=\"Alterar\">
+                                        <i class=\"fas fa-edit\"></i>
+                                    </abbr>
+                                </a> 
+                                <a href=\"./delete.php?id={$linha['id']}\" class=\" btn btn-danger link-light\">
+                                    <abbr title=\"Excluir\">
+                                        <i class=\"fas fa-trash\"></i>
+                                    </abbr>
+                                </a>
                             </td>
                         </tr>";
     }
