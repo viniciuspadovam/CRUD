@@ -21,7 +21,7 @@ $linha = $consulta->fetch(PDO::FETCH_ASSOC);
                 <label for="txtQtd" class="form-label">Quantidade: </label>
                 <input type="text" class="form-control" id="txtQtd" name="txtQtd" value="<?= $linha['qtd'] ?>" />
             </div>
-            <input type="submit" class="btn btn-primary" value="Update">
+            <button type="submit" class="btn btn-primary">Update</button>
         </form>
     </div>
 </main>

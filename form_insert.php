@@ -11,7 +11,7 @@
                 <label for="txtQtd" class="form-label">Quantidade: </label>
                 <input type="text" class="form-control" id="txtQtd" name="txtQtd">
             </div>
-            <input type="submit" class="btn btn-primary" value="Insert">
+            <button type="submit" class="btn btn-primary">Insert</button>
         </form>
     </div>
 </main>
